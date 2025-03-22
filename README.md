@@ -1,6 +1,34 @@
-- 👋 Hi, I’m @lifeosrun
+# LNMVP 技术栈 Roadmap 🚀
 
-<!---
-lifeosrun/lifeosrun is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+💡 **LNMVP = 从零开始，自研一套轻量级 LNMP 生态，构建最小可用的全栈 Web 运行环境！**
+
+🎯 目标：先把东西跑起来！每个组件做一个最小可用版本（MVP），确保它们能互相协作。
+
+### 第 1 周：nginxrun（Web 服务器） 🌐
+- ✅ 搭建一个最基础的 TCP 服务器
+- ✅ 解析 HTTP 请求（支持 GET）
+- ✅ 返回静态 HTML 响应
+- ✅ 简单的多进程/多线程并发处理
+
+### 第 2 周：phprun（PHP 解释器） 🐘
+- ✅ 能执行最基本的 PHP 代码
+- ✅ 处理变量、数学运算、字符串操作
+- ✅ 能嵌入 nginxrun 解析 PHP 文件
+
+### 第 3 周：sqlrun（SQLite 数据库） 🗄️
+- ✅ 解析 SQL 语句，支持 CREATE、INSERT、SELECT
+- ✅ 文件存储，保证数据能保存下来
+- ✅ 基础查询接口，能与 phprun 交互
+
+### 第 4 周：vuerun（Vue 前端框架） 🎨
+- ✅ 简单的数据绑定
+- ✅ 支持最基本的组件渲染
+- ✅ 让 vuerun 能和后端交互，完成最小的动态页面
+
+🚀 **一个月后，我们将拥有一个最小化但可运行的全栈系统——LNMVP！**
+
+📌 **下一步（等这步走完再说）：** 
+- 让它们更强大、更稳定 💪
+- 增加更多功能 🔧
+- 逐步优化性能 🚀
+
